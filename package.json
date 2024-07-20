@@ -1,0 +1,56 @@
+{
+  "name": "flutter-arquitectura-rapida",
+  "displayName": "Flutter Arquitectura Rápida por SkillMatrix",
+  "description": "Genera automáticamente una estructura de proyecto Flutter modular y escalable. Ideal para desarrolladores que buscan mantener sus proyectos organizados y seguir las mejores prácticas de desarrollo.",
+  "version": "1.0.0",
+  "publisher": "SkillMatrix.io",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.58.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.crearEstructuraFlutterCompleta",
+        "title": "Flutter: Iniciar Proyecto Estructurado by SkillMatrix.io"
+      },
+      {
+        "command": "extension.crearEstructuraFeatureFlutter",
+        "title": "Flutter: Añadir Nuevo User-Flow by SkillMatrix.io"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "extension.crearEstructuraFlutterCompleta",
+          "group": "myExtensionCommands@1",
+          "when": "explorerResourceIsFolder"
+        },
+        {
+          "command": "extension.crearEstructuraFeatureFlutter",
+          "group": "myExtensionCommands@2",
+          "when": "explorerResourceIsFolder"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run build",
+    "build": "node esbuild.js",
+    "watch": "node esbuild.js --watch"
+  },
+  "activationEvents": [
+    "onCommand:extension.crearEstructuraFlutterCompleta",
+    "onCommand:extension.crearEstructuraFeatureFlutter"
+  ],
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "esbuild": "^0.12.29",
+    "typescript": "^4.7.4",
+    "vscode": "^1.1.34"
+  }
+}
