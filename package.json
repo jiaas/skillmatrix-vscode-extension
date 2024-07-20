@@ -3,7 +3,7 @@
   "displayName": "Flutter Arquitectura Rápida por SkillMatrix",
   "description": "Genera automáticamente una estructura de proyecto Flutter modular y escalable. Ideal para desarrolladores que buscan mantener sus proyectos organizados y seguir las mejores prácticas de desarrollo.",
   "version": "1.0.0",
-  "publisher": "SkillMatrix.io",
+  "publisher": "SkillMatrix-io",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.58.0"
@@ -37,6 +37,10 @@
         }
       ]
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiaas/skillmatrix-vscode-extension"
   },
   "scripts": {
     "vscode:prepublish": "npm run build",
