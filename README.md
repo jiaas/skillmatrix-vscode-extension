@@ -32,7 +32,7 @@ Esta extensión no requiere configuración adicional. Simplemente instálala y c
 
 ## Problemas Conocidos
 
-Por el momento, no hay problemas conocidos. Si encuentras alguno, por favor repórtalo en nuestro [repositorio de GitHub](link-to-your-github-repo).
+Por el momento, no hay problemas conocidos. Si encuentras alguno, por favor repórtalo en nuestro [repositorio de GitHub](https://github.com/jiaas/skillmatrix-vscode-extension).
 
 ## Notas de la Versión
 
