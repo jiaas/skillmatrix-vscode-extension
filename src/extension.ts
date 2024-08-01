@@ -72,7 +72,7 @@ function createSkillMatrixFeatureStructure(featurePath: string) {
 	};
 
 	createDirectoriesAndFiles(featurePath, structure);
-	vscode.window.showInformationMessage(`Feature structure '${featureName}' created successfully.`);
+	vscode.window.showInformationMessage(`Estructura de User-Flow Efectivo '${featureName}' creada con éxito.`);
 }
 
 function createDirectoriesAndFiles(basePath: string, structure: any) {

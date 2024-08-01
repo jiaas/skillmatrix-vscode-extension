@@ -1,6 +1,6 @@
-# Flutter Arquitectura Rápida por SkillMatrix.io
+# SKMX: Arquitectura Flutter Efectiva
 
-¡Optimiza tu flujo de trabajo en Flutter! Esta extensión te permite generar automáticamente una estructura de proyecto modular y escalable con un solo clic.
+¡Optimiza tu flujo de trabajo en Flutter! Esta extensión te permite generar automáticamente una estructura de proyecto modular, escalable y efectiva con un solo clic.
 
 ## Características
 
@@ -12,10 +12,10 @@
 ## Cómo Usar
 
 1. Haz clic derecho en el explorador de archivos de VS Code.
-2. Selecciona "Flutter: Iniciar Proyecto Estructurado" para un nuevo proyecto.
-3. O elige "Flutter: Añadir Nueva Característica" para expandir un proyecto existente.
+2. Selecciona "Flutter: Iniciar Proyecto Estructurado Efectivo by SkillMatrix.io" para un nuevo proyecto.
+3. O elige "Flutter: Añadir Nuevo User-Flow Efectivo by SkillMatrix.io" para expandir un proyecto existente.
 
-## Por Qué Usar Flutter Arquitectura Rápida
+## Por Qué Usar SKMX: Arquitectura Flutter Efectiva
 
 - **Consistencia**: Mantén todos tus proyectos organizados de la misma manera.
 - **Escalabilidad**: La estructura está diseñada para crecer con tu proyecto.
@@ -36,10 +36,11 @@ Por el momento, no hay problemas conocidos. Si encuentras alguno, por favor rep�
 
 ## Notas de la Versión
 
-### 1.0.0
+### 1.0.2
 
-- Lanzamiento inicial de Flutter Arquitectura Rápida.
-- Incluye la generación de estructura completa de proyecto y la adición de nuevas características.
+- Actualizado el nombre de la extensión a "SKMX: Arquitectura Flutter Efectiva"
+- Mejorada la descripción para reflejar mejor las capacidades de la extensión
+- Actualizados los títulos de los comandos para mayor claridad
 
 ---
 

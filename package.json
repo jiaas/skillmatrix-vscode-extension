@@ -1,8 +1,8 @@
 {
-  "name": "flutter-arquitectura-rapida",
-  "displayName": "Flutter Arquitectura Rápida por SkillMatrix",
-  "description": "Genera automáticamente una estructura de proyecto Flutter modular y escalable. Ideal para desarrolladores que buscan mantener sus proyectos organizados y seguir las mejores prácticas de desarrollo.",
-  "version": "1.0.0",
+  "name": "skmx-flutter-arquitectura-efectiva",
+  "displayName": "SKMX: Arquitectura Flutter Efectiva",
+  "description": "Genera automáticamente una estructura de proyecto Flutter modular, escalable y efectiva. Ideal para desarrolladores que buscan mantener sus proyectos organizados, eficaces y eficientes siguiendo las mejores prácticas de desarrollo.",
+  "version": "1.0.2",
   "publisher": "SkillMatrix-io",
   "icon": "images/icon.png",
   "engines": {
@@ -16,11 +16,11 @@
     "commands": [
       {
         "command": "extension.crearEstructuraFlutterCompleta",
-        "title": "Flutter: Iniciar Proyecto Estructurado by SkillMatrix.io"
+        "title": "Flutter: Iniciar Proyecto Estructurado Efectivo by SkillMatrix.io"
       },
       {
         "command": "extension.crearEstructuraFeatureFlutter",
-        "title": "Flutter: Añadir Nuevo User-Flow by SkillMatrix.io"
+        "title": "Flutter: Añadir Nuevo User-Flow Efectivo by SkillMatrix.io"
       }
     ],
     "menus": {
